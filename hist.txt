@@ -1,0 +1,71 @@
+    1  exit
+    2  git init
+    3  dotnet --version
+    4  dotnet new gitignore
+    5  git add *
+    6  git log
+    7  git commit -m "Initial commit."
+    8  git config --global user.name "JY"
+    9  git config --global user.email "jason@ivory-leaf.com"
+   10  git commit -m "Initial commit."
+   11  git log
+   12  exit
+   13  exit
+   14  git log
+   15  git add *
+   16  git commit -m "20210324 - misc."
+   17  git log
+   18  exit
+   19  git show
+   20  git diff
+   21  exit
+   22  git status
+   23  git add .
+   24  git status
+   25  git commit -m "20210325 some improvements for open close forms - no multiple histo forms, auto select to scan textbox, maintain save meters behaviour for now."
+   26  git status
+   27  git show
+   28  git log
+   29  exit
+   30  exit
+   31  exit
+   32  git status
+   33  git log
+   34  exit
+   35  git remote -v
+   36  git init
+   37  git config
+   38  git config | grep -i edit
+   39  git config --get-all
+   40  git config --get core
+   41  git config --get core.editor
+   42  git log
+   43  git status
+   44  git remote add origin https://github.com/jasonivory-leafcom/scratch.git
+   45  git remote -v
+   46  git pull
+   47  git clone
+   48  git pull origin master
+   49  git clone origin
+   50  git remote -v
+   51  git clone https://github.com/jasonivory-leafcom/scratch.git
+   52  git push origin
+   53  git status
+   54  git add .
+   55  git status
+   56  git commit -m "first commit from local."
+   57  git push origin
+   58  git push origin master
+   59  git branch
+   60  git branch -r
+   61  git status
+   62  git log
+   63  git add .
+   64  git status
+   65  git commit -m "second local commit."
+   66  git log
+   67  git push origin
+   68  git push origin master
+   69  git push --set-upstream origin master
+   70  git log
+   71  history > hist.txt
