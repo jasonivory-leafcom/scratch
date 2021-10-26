@@ -1,2 +1,2 @@
 # scratch
-scratch repo (for first time).
+scratch repo.
